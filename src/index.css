@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.app{
+  min-height: 100vh;
+  display:grid;
+  background: #e2d4ff;
+}
+@media screen and (max-width: 480px){
+  .app{
+   min-height:120vh;
+   min-width: 120%;;
+  }
+}
